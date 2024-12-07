@@ -1,48 +1,15 @@
-# Sit's End Anchor
+# Temmie's Overworld Anchor
 
-This mod adds a new block: the End Anchor, which allows you to teleport in the End dimension in a vanilla-like style.
+a very light fork of [Sit's End Anchor](https://github.com/timas130/SitsEndAnchor)
 
-<img alt="fabric-api" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/requires/fabric-api_vector.svg">
+This mod adds a new block: the Sculk Anchor, which allows you to teleport in the Overworld dimension in a vanilla-like style.
 
 ## Crafting
 
-<img alt="Crafting Recipe" height="128" src="https://github.com/timas130/SitsEndAnchor/raw/master/screenshots/crafting.png">
+![crafting](https://github.com/user-attachments/assets/b9294da1-23b7-4fbf-915c-516d137b1803)
 
-Four obsidian on the corners, four popped chorus fruit on the sides, and a lodestone compass pointing to a lodestone in the End.
+> Unfortunately, this item does not appear in the recipe book, JEI, or other similar mods
 
-> Unfortunately, it's currently impossible to modify the crafting recipe using data packs.
+## Other
 
-## Using the block
-
-https://github.com/timas130/SitsEndAnchor/raw/master/screenshots/using.mp4
-
-Before you teleport, charging the anchor is required. Right-click with an end crystal to do that.
-
-When charged, the block lights up, indicating that it's ready to be used. Right-click again to teleport.
-
-You will be teleported on top of the lodestone the compass was pointing to.
-If the lodestone is broken or obstructed, teleportation will fail.
-
-## Breaking the block
-
-<img alt="Breaking without Silk Touch" height="256" src="https://github.com/timas130/SitsEndAnchor/raw/master/screenshots/breaking.png">
-
-If broken without Silk Touch, only the lodestone compass is dropped.
-If the tool has Silk Touch, the whole block can be picked up.
-
-Ender dragons cannot break the End Anchor.
-
-## Redstone mechanics
-
-<img alt="Redstone mechanics demonstration" height="256" src="https://github.com/timas130/SitsEndAnchor/raw/master/screenshots/redstone.png">
-
-When charged with an end crystal, the block outputs 15 redstone power through a comparator.
-
-<img alt="Dispenser demonstration" height="256" src="https://github.com/timas130/SitsEndAnchor/raw/master/screenshots/dispenser.gif">
-
-You can also point a dispenser with end crystals at the anchor and charge it using redstone!
-
-## Explosions
-
-If you try to use the End anchor in another dimension (in the overworld or the nether), it will explode.
-The explosion is two times bigger if the block had been charged before exploding.
+if you're wondering about anything else, everything in [Sit's description](https://github.com/timas130/SitsEndAnchor/blob/e17fa6263b4062f67d7b8ca01355e822ff073bb5/README.md) also applies for this, just, well, this is for the overworld  
