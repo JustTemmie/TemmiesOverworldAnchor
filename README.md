@@ -1,6 +1,6 @@
 # Temmie's Overworld Anchor
 
-a very light fork of [Sit's End Anchor](https://github.com/timas130/SitsEndAnchor)
+a very light fork of [Sit's End Anchor](https://github.com/timas130/SitsEndAnchor), for Minecraft 1.20.1, and ONLY 1.20.1
 
 This mod adds a new block: the Sculk Anchor, which allows you to teleport in the Overworld dimension in a vanilla-like style.
 
