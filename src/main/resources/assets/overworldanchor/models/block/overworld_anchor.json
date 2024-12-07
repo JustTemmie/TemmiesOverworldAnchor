@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "overworldanchor:block/overworld_anchor_bottom",
+    "east": "overworldanchor:block/overworld_anchor_side",
+    "north": "overworldanchor:block/overworld_anchor_side",
+    "south": "overworldanchor:block/overworld_anchor_side",
+    "west": "overworldanchor:block/overworld_anchor_side",
+    "up": "overworldanchor:block/overworld_anchor_top",
+    "particle": "overworldanchor:block/overworld_anchor_side"
+  }
+}

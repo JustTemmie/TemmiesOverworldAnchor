@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "charged=false": {"model": "overworldanchor:block/overworld_anchor"},
+    "charged=true": {"model": "overworldanchor:block/overworld_anchor_charged"}
+  }
+}

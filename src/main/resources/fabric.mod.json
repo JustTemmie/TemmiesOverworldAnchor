@@ -1,27 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "endanchor",
+  "id": "overworldanchor",
   "version": "${version}",
-  "name": "Sit's End Anchor",
-  "description": "Adds End Anchors that teleport you in the end",
+  "name": "Temmie's Overworld Anchor",
+  "description": "Adds Anchors that teleport you in the overworld\nForked from Sit's End Anchor",
   "authors": [
-    "sitsh"
+    "sitsh",
+    "JustTemmie"
   ],
   "contact": {
-    "homepage": "https://sit.sh/end-anchor",
-    "repo": "https://github.com/timas130/SitsEndAnchor",
-    "issues": "https://github.com/timas130/SitsEndAnchor/issues"
+    "repo": "https://github.com/JustTemmie/TemmiesOverworldAnchor"
   },
   "license": "GPL-3.0",
-  "icon": "assets/endanchor/icon.png",
+  "icon": "assets/overworldanchor/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "sh.sit.endanchor.SitsEndAnchor"
+      "beaver.mom.overworldanchor.TemmiesOverworldAnchor"
     ]
   },
   "mixins": [
-    "endanchor.mixins.json"
+    "overworldanchor.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
